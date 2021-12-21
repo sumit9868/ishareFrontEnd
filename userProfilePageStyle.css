@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+.userBanner{
+    background-color: rgb(94, 94, 175);
+    height: 200px;
+}
+
+.userContainer{
+ padding: 0px 100px;
+ background-color: antiquewhite;
+}
+
+.userInfoBar{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: -30px; */
+    position: relative;
+    /* position: sticky; */
+    top: -20px;
+}
+
+.userProfileImage{
+    /* background-image: url(https://picsum.photos/600/400); */
+    /* min-height: 2vh; */
+    /* min-width: 2vh; */
+    border: 8px solid white;
+    border-radius: 3px;
+    /* margin: -10px 2px; */
+}
+
+.userInfoText{
+    padding: 2% 5%;
+}
+
+.followBtn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userDiaries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 50px 10px;
+}
+
+.cardImg{
+    padding: 10px;
+}
+
+.card{
+    margin: 20px;
+
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-interaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.delete-icon{
+    color: rgb(102, 102, 124);
+    /* position: ; */
+}
