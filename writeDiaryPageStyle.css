@@ -1,0 +1,10 @@
+.diary-text div{
+    min-height: 100px;
+
+}
+
+.diary-text div::placeholder{
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
