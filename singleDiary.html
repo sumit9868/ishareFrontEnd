@@ -12,7 +12,10 @@
 <body>
     <!-- navbar component -->
     <div class="container diary-outer">
-        <h1>Date{DD/MM/YY}</h1>
+        <div class="diary-info">
+            <h3>Date{DD/MM/YY}</h3>
+            <h6>Autor : @sumit</h6>
+        </div>
         <div class="diary" >
             <div class="diary-text" contenteditable="true">
 
@@ -32,7 +35,14 @@
                 </p>
                 
             </div>
-                <div class="edit-button-outer">
+            <div class="tags">
+                <!-- will contain material ui angular chips to have sentiments regarding the diary -->
+                <a href="">happy</a>
+                <a href="">delighted</a>
+                <a href="">opotimistic</a>
+                <a href="">elated</a>
+            </div>
+            <div class="edit-button-outer">
                 <button class="btn btn-dark">Edit</button>
             </div>
         </div>
